@@ -104,3 +104,33 @@ body {
 .seccion-2__imagen{
     padding-bottom: 100px;
 }
+
+/*Footer*/
+footer{
+  background-color: #9b02e7;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+.col {
+  flex: 0 0 auto;
+  width: 200px;
+}
+
+/* Personaliza el estilo del texto y los enlaces en el footer */
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
